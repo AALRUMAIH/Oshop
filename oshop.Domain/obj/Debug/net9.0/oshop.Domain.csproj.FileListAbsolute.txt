@@ -1,0 +1,11 @@
+C:\Users\aalromaih\source\repos\oshop.Domain\bin\Debug\net9.0\oshop.Domain.deps.json
+C:\Users\aalromaih\source\repos\oshop.Domain\bin\Debug\net9.0\oshop.Domain.dll
+C:\Users\aalromaih\source\repos\oshop.Domain\bin\Debug\net9.0\oshop.Domain.pdb
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\oshop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\oshop.Domain.AssemblyInfoInputs.cache
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\oshop.Domain.AssemblyInfo.cs
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\oshop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\oshop.Domain.dll
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\refint\oshop.Domain.dll
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\oshop.Domain.pdb
+C:\Users\aalromaih\source\repos\oshop.Domain\obj\Debug\net9.0\ref\oshop.Domain.dll

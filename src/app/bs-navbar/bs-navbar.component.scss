@@ -1,0 +1,33 @@
+.dropdown-toggle{
+    cursor: pointer;
+}
+.custom-navbar {
+  background-color: white !important;  /* ✅ Navbar white */
+  color: #6c757d !important;  /* ✅ Light gray text */
+}
+
+.custom-navbar a {
+  color: #6c757d !important;  /* ✅ Light gray links */
+}
+
+.custom-navbar a:hover {
+  color: black !important; /* ✅ Darker on hover */
+}
+
+.custom-navbar .dropdown-menu {
+  position: absolute; /* Ensure the dropdown appears outside the normal flow */
+  z-index: 1050; /* Ensure the dropdown appears above other content */
+}
+
+.custom-dropdown-toggle {
+  cursor: pointer; /* Ensure the cursor indicates it's clickable */
+}
+
+/* Adjust dropdown position if needed */
+.custom-navbar .dropdown {
+  position: relative; /* Make sure it's positioned within its container */
+}
+
+.sticky-top {
+  z-index: 1020; /* Ensure the sidebar stays below the dropdown */
+}

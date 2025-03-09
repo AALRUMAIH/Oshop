@@ -1,0 +1,33 @@
+
+  .list-group-item-action:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+    color: #007bff; /* Blue text on hover */
+  }
+  
+
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  .card-body {
+    flex-grow: 1;
+  }
+}
+
+/* Active category styling */
+.active-category {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* Fix image aspect ratio */
+.card-img-top {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.sticky-top{
+  top :80px;
+}

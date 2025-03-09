@@ -1,0 +1,127 @@
+<!-- <div class="slider-class">
+<p-table 
+  [value]="filterProducts">
+
+ 
+  <ng-template pTemplate="header">
+      <tr>
+        <th style="width: 40%;">Title</th>
+        <th style="width: 40%;">Price</th>
+        <th style="width: 20%;">Actions</th>
+      </tr>
+  </ng-template>
+
+  <ng-template pTemplate="body" let-filterProducts>
+    <tr>
+      <td>{{ filterProducts.title }}</td>
+      <td>{{ filterProducts.price | currency:'USD' }}</td>
+      <td>
+        <a [routerLink]="['/admin/products/', filterProducts.id]" class="text-primary">Edit</a>
+      </td>
+    </tr>
+  </ng-template>
+
+  <ng-template pTemplate="caption">
+    <div class="d-flex justify-content-between align-items-center">
+      <a routerLink="/admin/products/new" class="btn btn-primary">Add new product</a>
+      <input #query (keyup)="filter(query.value)" type="text" class="form-control w-25" placeholder="Search...">
+    </div>
+  </ng-template>
+
+</p-table>
+</div> -->
+
+<div class="card p-3 shadow-sm rounded">
+  <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+    <h5 class="m-0">Product Management</h5>
+    <a routerLink="/admin/products/new" class="btn btn-light text-primary fw-bold">+ Add New Product</a>
+  </div>
+
+  <div class="card-body">
+    <div class="mb-3">
+      <input #query (keyup)="filter(query.value)" type="text" class="form-control w-25" placeholder="🔍 Search products...">
+    </div>
+
+    <p-table [value]="filterProducts"
+             [paginator]="true"
+             [rows]="3"
+            
+             
+             [showCurrentPageReport]="true"
+             
+             class="p-datatable-striped">
+
+      <ng-template pTemplate="header">
+        <tr class="table-primary text-center">
+          <th style="width: 40%;" class="fw-bold text-dark py-2">Title</th>
+          <th style="width: 40%;" class="fw-bold text-dark py-2">Price</th>
+          <th style="width: 20%;" class="fw-bold text-dark py-2">Actions</th>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="body" let-filterProducts>
+        <tr class="product-row">
+          <td>{{ filterProducts.title }}</td>
+          <td>{{ filterProducts.price | currency:'USD' }}</td>
+          <td>
+            <a [routerLink]="['/admin/products/', filterProducts.id]" class="btn btn-sm btn-outline-primary">Edit</a>
+          </td>
+        </tr>
+      </ng-template>
+
+    </p-table>
+  </div>
+</div>
+
+
+<!-- <div class="slider-class">
+  <p-table 
+    [value]="filterProducts"
+    [paginator]="true"
+    [rows]="5"
+    [tableStyle]="{ 'min-width': '50rem' }"
+    [rowsPerPageOptions]="[5, 10, 20]"
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [showCurrentPageReport]="true"
+  >
+    
+    <ng-template pTemplate="header">
+      <tr>
+        <th style="width:40%">Title</th>
+        <th style="width:40%">Price</th>
+        <th style="width:20%">Actions</th>
+      </tr>
+    </ng-template>
+
+  
+    <ng-template pTemplate="body" let-product>
+      <tr>
+        <td>{{ product.title }}</td>
+        <td>{{ product.price | currency:'USD' }}</td>
+        <td>
+          <a [routerLink]="['/admin/products/', product.id]" class="text-primary">Edit</a>
+        </td>
+      </tr>
+    </ng-template>
+
+   
+    <ng-template pTemplate="caption">
+      <div class="d-flex justify-content-between align-items-center">
+        <a routerLink="/admin/products/new" class="btn btn-primary">Add new product</a>
+        <input #query (keyup)="filter(query.value)" type="text" class="form-control w-25" placeholder="Search...">
+      </div>
+    </ng-template>
+
+   
+    <ng-template pTemplate="paginatorleft">
+      <p-button type="button" icon="pi pi-chevron-left" (click)="prev()" [disabled]="isFirstPage()" text />
+      <p-button type="button" icon="pi pi-refresh" (click)="reset()" text />
+      <p-button type="button" icon="pi pi-chevron-right" (click)="next()" [disabled]="isLastPage()" text />
+    </ng-template>
+
+    
+    <ng-template pTemplate="paginatorright">
+      <span class="mx-2">Total Products: {{ filterProducts?.length }}</span>
+    </ng-template>
+  </p-table>
+</div> -->

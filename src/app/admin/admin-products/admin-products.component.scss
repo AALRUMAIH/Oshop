@@ -1,0 +1,72 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-elevation-z8 {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .mat-paginator {
+    margin-top: 16px;
+  }
+  ::ng-deep .p-paginator {
+    border: 1px solid #ddd; // Light border for better visibility
+    padding: 8px;
+    border-radius: 6px;
+  }
+  
+  ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 14px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+  }
+  
+  ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background-color: #007bff; // Change to your preferred color
+    color: white;
+    border: 1px solid #0056b3;
+  }
+  
+  ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page:hover {
+    background-color: #e0e0e0;
+  }
+  
+  ::ng-deep .p-paginator .p-paginator-first,
+  ::ng-deep .p-paginator .p-paginator-prev,
+  ::ng-deep .p-paginator .p-paginator-next,
+  ::ng-deep .p-paginator .p-paginator-last {
+    font-size: 20px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  ::ng-deep .p-paginator .p-paginator-first:hover,
+  ::ng-deep .p-paginator .p-paginator-prev:hover,
+  ::ng-deep .p-paginator .p-paginator-next:hover,
+  ::ng-deep .p-paginator .p-paginator-last:hover {
+    background-color: #f0f0f0;
+  }
+.product-row {
+  height: 50px; /* Increase row height */
+}
+
+.product-row td {
+  padding: 15px 10px; /* Add padding inside each cell */
+}
+
+.p-datatable-tbody tr:not(:last-child) {
+  margin-bottom: 10px; /* Adds space between rows */
+}
+:host ::ng-deep .p-paginator .p-highlight {
+  color: blue !important; /* Blue text color */
+  font-weight: bold;
+  text-decoration: underline; /* Optional: underline */
+}
+
+  
+  

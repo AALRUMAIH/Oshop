@@ -1,0 +1,17 @@
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.csproj.AssemblyReference.cache
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.AssemblyInfoInputs.cache
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.AssemblyInfo.cs
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.csproj.CoreCompileInputs.cache
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Application.deps.json
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Application.dll
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Application.pdb
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Domain.dll
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Infrastructure.dll
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Domain.pdb
+C:\Users\aalromaih\source\repos\oshop.Application\bin\Debug\net9.0\oshop.Infrastructure.pdb
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Ap.494ECD1C.Up2Date
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.dll
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\refint\oshop.Application.dll
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\oshop.Application.pdb
+C:\Users\aalromaih\source\repos\oshop.Application\obj\Debug\net9.0\ref\oshop.Application.dll
